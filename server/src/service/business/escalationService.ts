@@ -98,7 +98,7 @@ export class EscalationService implements IEscalationService {
 				shouldResolveIncident: false,
 				shouldSendNotification: true,
 				incidentReason: null as const,
-				notificationReason: "status_change" as const,
+				notificationReason: "escalation" as const,
 			};
 
 			// Create mock status response for escalation
